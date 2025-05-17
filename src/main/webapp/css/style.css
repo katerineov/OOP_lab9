@@ -1,0 +1,66 @@
+body {
+    align-items: center;
+}
+
+.btn {
+    background-color: #BB8800;
+    height: 40px;
+    width: 100%;
+}
+
+.content-form {
+    justify-items: center;
+    width: 500px;
+    font-size: 20px;
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+input {
+    width: 100%;
+    font-size: 18px;
+    border: solid 1px;
+    background-color: #BBB;
+    height: 30px;
+    transition:
+            all 0.3s ease;
+}
+
+input:hover {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+input:focus {
+    background-color: #666;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+th {
+    background-color: #AAA;
+    height: 50px;
+}
+
+.list-rents {
+    width: 80%;
+    font-size: 20px;
+    border: solid 3px;
+    align-items: center;
+    justify-items: center;
+}
+
+.list-rents-container {
+    width: auto;
+    border: solid 3px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.cell-list {
+    border: solid 1px;
+}
+
